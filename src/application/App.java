@@ -1,10 +1,10 @@
 package application;
 
-import boardgame.Position;
+import boardgame.Board;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Position position = new Position(0, 0);
-        System.out.println(position.toString()); 
+        Board board = new Board(8, 8);
+        System.out.println(board.toString());
     }
 }
